@@ -1,0 +1,20 @@
+/* تنظیم عکس پس‌زمینه کل سایت */
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('bg.jpg') !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    background-position: center !important;
+}
+
+/* شفاف کردن بخش‌های اضافی تا عکس دیده شود */
+.md-container, .md-main {
+    background: transparent !important;
+}
+
+/* خوانا کردن بخش متن مقالات با یک پس‌زمینه نیمه‌شفاف تاریک */
+.md-content {
+    background-color: rgba(30, 30, 30, 0.85);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
